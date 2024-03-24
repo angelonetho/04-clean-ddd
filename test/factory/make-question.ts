@@ -6,8 +6,6 @@ import {
 import { Slug } from '@/domain/forum/enterprise/entities/value-objects/slug'
 import { faker } from '@faker-js/faker'
 
-import { UniqueEntityId } from './../../src/core/entities/unique-entity-id'
-
 export function makeQuestion(
   override: Partial<QuestionProps> = {},
   id?: UniqueEntityId,
