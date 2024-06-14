@@ -5,7 +5,7 @@ import { InMemoryQuestionsRepository } from 'test/repositories/in-memory-questio
 
 import { InMemoryAnswersRepository } from './../../../../../test/repositories/in-memory-answers-repository'
 import { ChooseQuestionBestAnswerUseCase } from './choose-question-best-answer'
-import { NotAllowedError } from './errors/not-allowed-error';
+import { NotAllowedError } from '../../../../core/errors/errors/not-allowed-error';
 import { InMemoryQuestionAttachmentsRepository } from 'test/repositories/in-memory-question-attachments-repository';
 import { InMemoryAnswerAttachmentsRepository } from 'test/repositories/in-memory-answer-attachments-repository';
 
